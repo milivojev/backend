@@ -1,0 +1,173 @@
+
+body{
+    margin:0 auto;
+}
+h1,h2,h3,h4, table {
+    font-family: Montserrat;
+}
+p,a{
+    font-family: "Josefin Slab";
+}
+p{
+    font-size: 18px;
+}
+.footer {
+    margin-top: 10px;
+    font-size: 25px;
+}
+.footer a {
+    margin:5px;
+}
+
+
+.page-header{
+    height:150px;
+    margin-top: 1%;
+}
+
+.header img {
+    height:100px;
+    width:400px;
+}
+.app-baner {
+    background-image: url("../img/logo-infocusR.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.list-group-item {
+    margin: auto 10px;
+    padding: 20px 10px;
+    height: 75px;
+    font-size: 25px;
+    width: 100%;
+}
+
+.navbar-right{
+    margin-top:80px;
+    margin-right: 30px;
+}
+
+
+
+/*}*/
+/*div {*/
+/*border: 1px solid red;*/
+/*}*/
+.main {
+    max-height:100vh;
+
+}
+.second-row{
+    height: 67vh;
+    overflow: hidden;
+}
+.main-content{
+    height: 100%;
+    overflow-y: scroll;
+}
+.main-content-slide{
+    height: 100%;
+
+}
+
+/*table*/
+.table-responsive{
+    height:50vh;
+    font-size: 18px;
+}
+td {
+
+    min-width: 50px;
+
+}
+
+.margin10 {
+    margin-top:10px;
+}
+.margin30{
+    margin-top:50px;
+}
+/*table fixed header*/
+
+/*slideshow*/
+
+
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+/*.main {*/
+
+/*}*/
+
+.rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+
+.rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.rslides img {
+    display: block;
+    height:auto;
+    float: left;
+    width: 100%;
+    border: 0;
+}
+
+/*upload file btn*/
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+.edit-buttons a{
+    margin-right: 10px;
+}
+
+/*login*/
+.login{
+    margin-top:10px;
+    height:25vh;
+    background-image: url('./img/logo-infocusR.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-size: cover;*/
+}
